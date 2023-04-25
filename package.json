@@ -1,0 +1,13 @@
+{
+  "name": "play-tailwind-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "quangdung861 <quangdung861@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tailwindcss -i style.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
